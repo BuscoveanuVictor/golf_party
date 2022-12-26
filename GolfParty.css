@@ -1,0 +1,36 @@
+#canvas{
+    background-color: aqua;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;  
+}
+p{
+    position: fixed;
+}
+
+button{
+    position: absolute;
+    background-color: orange;
+    text-align: center;
+    height: 50px;
+    color:white;
+    font-size: 30px;
+    box-shadow: 0px 3px 0px 0px rgb(77, 115, 138);
+}
+#restartButton,#menuButton{
+    width: 50px;
+    border-radius: 50%;
+}
+
+#nextButton{
+    width: 100px;
+    border-radius: 30%;
+}
+
+
+button:active{
+    transform: translateY(3px);
+    box-shadow: 0px 3px 0px 0px rgb(67, 88, 93);
+    
+}
