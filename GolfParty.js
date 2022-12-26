@@ -538,4 +538,5 @@ function Menu(){
     removeButoane();
     game.draw();
     ctx.drawImage(menu,100,100);
+    console.log('ceva')
 }
